@@ -1,0 +1,185 @@
+body,html{
+    height: 100%;
+    width: 100%;
+}
+.title{
+    background-color: brown;
+    color:white;
+    text-align: center;
+    font-style: italic;
+}
+.title_1{
+    color: brown;
+    text-align: center;
+}
+.head h3{
+    color: blue;
+    text-align: right;
+    margin-top: -2px;
+}
+.head p{
+    color: blue;
+    text-align: right;
+    margin-top: -12px;   
+    font-size: small;
+}
+.head i{
+    
+    color: blue;
+    text-align: right;
+    margin-right:10px ;
+    margin-left: 391px;
+}
+.img img{
+    margin-top: 13px;
+}
+.carousel-space{
+    margin-top: 20px;
+}
+.font h2{
+    margin-top: 50px;
+    color: rgb(22, 22, 126);
+    text-align: center;
+
+}
+.card-img-top{
+    height: auto;
+    width: 187px;
+    margin-left: 50px;
+    margin-top: 63px;
+    border-radius: 50%;
+
+   
+}
+
+.card{
+    border-color: white;
+    width: fit-content;
+}
+.slide_3 h2 {
+    text-align: center;
+    color: white;
+}
+.slide_4{
+    margin-top: 50px;
+    background-color: brown;
+}
+.slide_3 h6{
+    text-align: center;
+    color: white;
+    margin-top: -8px;
+}
+.list-inline-item{
+    margin-top: 60px;
+    margin-left: 100px;
+    border: solid black;
+    background-color: white;
+    
+}
+.slide-5 h6{
+    text-align: center;
+    margin-left: 28px;
+    color: white;
+    margin-top: 14px;
+    font-size: 23px;
+    font-weight: bold;
+}
+.shortpara p{
+    text-align: center;
+    color: white;
+    margin-top: -5px;
+
+}
+.heading{
+    text-align: center;
+    color: brown;
+    margin-top: 30px;
+    background-color: rgb(210, 244, 255);
+}
+.video{
+    
+    text-align: center;
+}
+.heading-1{
+    text-align: center;
+    color: brown;
+    margin-top: 40px;
+
+}
+.infection-img{
+    position: relative;
+    margin-bottom: 45px;
+}
+.infection-img img{
+    
+    height: auto;
+    width: 82px;
+    border-radius: 50%;
+   /* margin-left: 90px;
+    margin-top: 70px;*/
+    position: relative;
+    z-index: 1;
+    top: 0px;
+    left: 37%;
+      
+
+}
+
+
+.infection-img::after{
+    content: ' ';
+    display: block;
+    border-radius: 50%;
+    background-color: peachpuff;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -25px;
+    z-index: 0;
+    left: 30%;
+   
+}
+.infection-img figcaption{
+    top: -25px;
+    left: 30%;
+    text-align: center;
+    color: brown;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 10px;
+
+}
+.content-2 h5{
+    color: brown;
+    
+    text-align: center;
+}
+
+.footer-text a{
+    color: rgb(229, 186, 107);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: -29px;
+    
+    
+}
+
+.py-5 img{
+ margin-bottom: 68px;   
+}
+.icons {
+color: rgb(229, 186, 107);
+}
+.color{
+    background-color: black;
+}
+.footer-info p{
+    font-size: 20px;
+}
+.fa-address-book:before {
+    color: white;
+
+}
